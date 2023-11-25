@@ -9,20 +9,24 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
-    <main>
-      <form id="poem-form">
-        <input
-          type="text"
-          placeholder="Type subject of the Poem"
-          id="subject"
-          autofocus
-          required
-        />
-        <input type="submit" id="submit" />
-      </form>
-    </main>
-    <div id="poem"></div>
+    <h1>Poem Generator</h1>
+    <div class="container">
+      <main>
+        <form id="poem-form">
+          <input
+            type="text"
+            placeholder="Type subject of the Poem"
+            id="subject"
+            class="subject"
+            autofocus
+            required
+          />
+          <input type="submit" id="submit" class="submit" />
+        </form>
+        <small>i.e Puppies, Flowers, Cars, etc.</small>
+      </main>
+      <div id="poem" class="hidden poem"><span class="generating"></span></div>
+    </div>
     <footer>
       This Project was Coded by Kyli White and is
       <a href="https://bright-eclair-e1dfcf.netlify.app" target="_blank"
