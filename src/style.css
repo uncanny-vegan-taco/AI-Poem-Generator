@@ -11,13 +11,14 @@ h1 {
 main {
   display: block;
   margin: 0 auto;
-  text-align: center;
+  width: 60%;
 }
 form {
-  width: 100%;
+  display: flex;
 }
 small {
   color: #ffc93c;
+  line-height: 2;
 }
 footer {
   text-align: center;
@@ -28,7 +29,7 @@ a {
   color: #ff6f3c;
 }
 .submit {
-  width: 10%;
+  width: 20%;
   padding: 15px;
   border-radius: 30px;
   border: 1px solid #155263;
@@ -44,7 +45,7 @@ a {
   color: #ff6f3c;
 }
 .subject {
-  width: 50%;
+  width: 80%;
   padding: 10px;
   border-radius: 8px;
   border: none;
