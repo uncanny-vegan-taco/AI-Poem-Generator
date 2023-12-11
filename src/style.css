@@ -72,8 +72,7 @@ a {
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+
   text-align: center;
   color: #ff9a3c;
   max-width: 100%;
@@ -93,5 +92,9 @@ a {
   }
   .subject {
     font-size: 12px;
+  }
+  .poem {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
